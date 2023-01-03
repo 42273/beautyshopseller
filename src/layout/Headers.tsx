@@ -56,7 +56,7 @@ function Headers() {
             </Box>
             <Box>
               <img
-                src={"/images/BeautyShopLogo.png"}
+                src={"./images/BeautyShopLogo.png"}
                 width={"40px"}
                 height={"40px"}
                 onClick={() => navi("/")}
