@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Context.Provider value={null}>
-        <BrowserRouter>
+        <BrowserRouter basename="/beautyshopseller/" >
           <Routes>
             <Route element={<BaseLayer />}>
               <Route
